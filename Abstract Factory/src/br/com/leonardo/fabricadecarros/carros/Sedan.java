@@ -33,7 +33,6 @@ public class Sedan implements ICarro{
     }
     @Override
     public void exibirInfo() {
-        System.out.println("\n");
         System.out.println("Tipo: "+getClass().getSimpleName());
         System.out.println(String.format("modelo: %s",modelo));
         System.out.println(String.format("combustivel: %s",combustivel));
