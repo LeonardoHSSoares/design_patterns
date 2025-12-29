@@ -1,24 +1,19 @@
-package com.leonardo.templateMethod;
+package com.leonardo.templateMethod.domain;
 
 public class Policial extends Worker {
 
     @Override
     protected void startWork() {
-        System.out.println("Policial está iniciando o serviço.");
-    }
-
-    @Override
-    protected void doWork() {
         System.out.println("Policial está mantendo a ordem pública.");
     }
 
     @Override
     protected void takeBreak() {
-        System.out.println("Policial está tomando um intervalo.");
+        System.out.println("Policial está tomando um café.");
     }
 
     @Override
-    protected void finishWork() {
+    protected void endWork() {
         System.out.println("Policial terminou o serviço.");
     }
 }

@@ -1,26 +1,18 @@
-package com.leonardo.templateMethod;
+package com.leonardo.templateMethod.domain;
 
 public abstract class Worker {
 
 
-    public final void executar() {
-        work();
-    }
     // Template Method
     public final void work() {
         startWork();
-        doWork();
         takeBreak();
-        finishWork();
+        endWork();
     }
 
     protected abstract void startWork();
-
-    protected abstract void doWork();
-
     protected abstract void takeBreak();
-
-    protected abstract void finishWork();
+    protected abstract void endWork();
 
 
 
