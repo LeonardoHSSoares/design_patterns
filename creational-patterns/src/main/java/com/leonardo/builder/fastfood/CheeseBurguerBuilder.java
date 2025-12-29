@@ -2,7 +2,7 @@ package com.leonardo.builder.fastfood;
 
 import com.github.javafaker.Faker;
 
-public class CheeseBurguerBuillder extends BurgerBuilder {
+public class CheeseBurguerBuilder extends BurgerBuilder {
 
     Faker faker = new Faker();
     

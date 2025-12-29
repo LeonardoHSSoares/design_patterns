@@ -25,11 +25,13 @@ public class Burger {
     }
     
     public void exibeBurguer() {
-        System.out.println("Burger with: ");
+        System.out.println("\n");
+        System.out.println("---- Burger Details ----");
         System.out.println("Bun: " + bun);
         System.out.println("Patty: " + patty);
         System.out.println("Cheese: " + cheese);
         System.out.println("Sauce: " + sauce);
         System.out.println("Veggies: " + veggies);
+        System.out.println("------------------------");
     }
 }

@@ -6,10 +6,15 @@ public class AppRestaurante {
 
         Gerente gerente = new Gerente();
     
-        BurgerBuilder cheeseBurgerBuilder = new CheeseBurguerBuillder();
+        BurgerBuilder cheeseBurgerBuilder = new CheeseBurguerBuilder();
         gerente.setBurgerBuilder(cheeseBurgerBuilder);
         Burger cheeseBurger = gerente.criaBurger();
         cheeseBurger.exibeBurguer();
+
+        BurgerBuilder veggieBurgerBuilder = new VeggieBurgerBuilder();
+        gerente.setBurgerBuilder(veggieBurgerBuilder);
+        Burger veggieBurger = gerente.criaBurger();
+        veggieBurger.exibeBurguer();
 
 
     }
