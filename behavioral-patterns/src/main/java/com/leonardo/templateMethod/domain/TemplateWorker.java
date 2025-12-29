@@ -1,10 +1,10 @@
 package com.leonardo.templateMethod.domain;
 
-public abstract class Worker {
+public abstract class TemplateWorker {
 
     // Template Method
     public final void run() {
-        work();
+        
     }
     public void work() {
         startWork();
@@ -15,5 +15,4 @@ public abstract class Worker {
     protected abstract void startWork();
     protected abstract void takeBreak();
     protected abstract void endWork();
-
 }

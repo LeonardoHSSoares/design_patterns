@@ -1,19 +1,25 @@
 package com.leonardo.templateMethod.domain;
 
-public class Bombeiro extends Worker {
+public class Bombeiro extends TemplateWorker2 {
 
     @Override
-    protected void worker() {
-        System.out.println("Bombeiro está combatendo incêndios.");
+    public void run() {
+        startWork();
+        takeBreak();
+        endWork();
     }
     
-    @Override
-    protected void takeBreak() {
-        System.out.println("Bombeiro está tomando um intervalo.");
+    private void startWork() {
+        System.out.println("Bombeiro está combatendo o fogo.");
     }
-    @Override
-    protected void endWork() {
+    private void takeBreak() {
+        System.out.println("Bombeiro está descansando após o combate.");
+    }
+    private void endWork() {
         System.out.println("Bombeiro terminou o serviço.");
     }
+    
+
+
 
 }

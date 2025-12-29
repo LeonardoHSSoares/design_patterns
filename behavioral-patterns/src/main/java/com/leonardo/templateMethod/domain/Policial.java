@@ -1,12 +1,12 @@
 package com.leonardo.templateMethod.domain;
 
-public class Policial extends Worker {
+public class Policial extends TemplateWorker {
 
     @Override
-    protected void worker() {
-        System.out.println("Policial está mantendo a ordem pública.");
+    protected void startWork() {
+        System.out.println("Policial está patrulhando a área.");
     }
-
+    
     @Override
     protected void takeBreak() {
         System.out.println("Policial está tomando um café.");
@@ -16,4 +16,5 @@ public class Policial extends Worker {
     protected void endWork() {
         System.out.println("Policial terminou o serviço.");
     }
+
 }
