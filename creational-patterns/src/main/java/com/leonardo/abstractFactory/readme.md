@@ -62,4 +62,3 @@ carro.exibirInfo();
 
 ---
 
-Se quiser, posso adicionar diagramas simples, exemplos mais detalhados ou testes unitários que comprovem o comportamento de criação das fábricas. 🔧
