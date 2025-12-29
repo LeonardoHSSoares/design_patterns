@@ -52,5 +52,3 @@ No projeto existe uma classe `com.leonardo.Main` que demonstra esse comportament
 - Mantenha o *template method* claro e simples; delegue comportamentos específicos para métodos protegidos/abstratos nas subclasses.
 
 ---
-
-Se quiser, eu posso adicionar um exemplo extra (mais passos/hook methods) ou criar uma nova subclasse demonstrando outro tipo de `Worker`. 🚀
