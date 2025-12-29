@@ -3,7 +3,7 @@ package com.leonardo.templateMethod.domain;
 public class Policial extends Worker {
 
     @Override
-    protected void startWork() {
+    protected void worker() {
         System.out.println("Policial está mantendo a ordem pública.");
     }
 
