@@ -13,4 +13,4 @@ public class SingletonEager {
     public void showMessage() {
         System.out.println("Eager -> " + this);
     }
-}a
+}
