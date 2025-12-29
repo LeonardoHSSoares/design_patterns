@@ -2,8 +2,12 @@ package com.leonardo.templateMethod;
 
 public abstract class Worker {
 
+
+    public final void executar() {
+        work();
+    }
     // Template Method
-    public final void performDuties() {
+    public final void work() {
         startWork();
         doWork();
         takeBreak();
