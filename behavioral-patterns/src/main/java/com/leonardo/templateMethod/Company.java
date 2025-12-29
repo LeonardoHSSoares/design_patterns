@@ -1,9 +1,6 @@
-package com.leonardo;
+package com.leonardo.templateMethod;
 
-import com.leonardo.templateMethod.Bombeiro;
-import com.leonardo.templateMethod.Policial;
-
-public class Main {
+public class Company {
     public static void main(String[] args) {
         Policial policial = new Policial();
         policial.performDuties();

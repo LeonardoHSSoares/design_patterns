@@ -43,7 +43,25 @@ Bombeiro bombeiro = new Bombeiro();
 bombeiro.performDuties();
 ```
 
-No projeto existe uma classe `com.leonardo.Main` que demonstra esse comportamento executando ambas as implementações.
+No projeto existe a classe `com.leonardo.templateMethod.Company` que demonstra esse comportamento executando ambas as implementações.
+
+---
+
+## Como executar ▶️
+
+- **Em um IDE:** Rode a classe `com.leonardo.templateMethod.Company` como uma aplicação Java (Run as Java Application).
+- **Via Maven (na pasta do módulo `behavioral-patterns`):**
+
+```bash
+mvn exec:java -Dexec.masinClas="com.leonardo.templateMethod.Company"
+```
+
+- **Usando linha de comando Java (exemplo):**
+
+```bash
+javac -d target/classes src/main/java/com/leonardo/templateMethod/*.java
+java -cp target/classes com.leonardo.templateMethod.Company
+```
 
 ---
 
