@@ -1,6 +1,7 @@
+D:\repositorios\design_patterns\behavioral-patterns\src\main\java\com\leonardo\factory\Main.java
 D:\repositorios\design_patterns\behavioral-patterns\src\main\java\com\leonardo\templateMethod\Company.java
 D:\repositorios\design_patterns\behavioral-patterns\src\main\java\com\leonardo\templateMethod\domain\Bombeiro.java
+D:\repositorios\design_patterns\behavioral-patterns\src\main\java\com\leonardo\templateMethod\domain\Cozinheiro.java
 D:\repositorios\design_patterns\behavioral-patterns\src\main\java\com\leonardo\templateMethod\domain\Policial.java
 D:\repositorios\design_patterns\behavioral-patterns\src\main\java\com\leonardo\templateMethod\domain\TemplateWorker.java
 D:\repositorios\design_patterns\behavioral-patterns\src\main\java\com\leonardo\templateMethod\domain\TemplateWorker2.java
-D:\repositorios\design_patterns\behavioral-patterns\src\main\java\com\leonardo\templateMethod\domain\Worker.java
