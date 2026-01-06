@@ -12,6 +12,7 @@ public abstract class TemplateWorker {
         endWork();
     }
     
+    protected abstract String getWorker();
     protected abstract void startWork();
     protected abstract void takeBreak();
     protected abstract void endWork();

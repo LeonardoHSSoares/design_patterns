@@ -2,7 +2,7 @@ package com.leonardo.templateMethod.domain;
 
 public abstract class TemplateWorker2 {
 
-    public void worker() {
+    public void work() {
         startWork();
         takeBreak();
         endWork();
@@ -11,12 +11,12 @@ public abstract class TemplateWorker2 {
     protected abstract void run();
 
     private void startWork() {
-        System.out.println("Trabalhador está começando o trabalho.");
+        System.out.println("Está começando o trabalho.");
     }
     private void takeBreak() {
-        System.out.println("Trabalhador está fazendo uma pausa.");
+        System.out.println("Está fazendo uma pausa.");
     }
     private void endWork() {
-        System.out.println("Trabalhador terminou o trabalho.");
+        System.out.println("Terminou o trabalho.");
     }
 }
